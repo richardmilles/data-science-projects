@@ -6,7 +6,6 @@ Les accidents de la route constituent un enjeu majeur de santé publique, de sé
 
 Ce projet s’appuie sur un ensemble de données ouvertes couvrant les accidents corporels de la circulation en France entre 2005 et 2021. L’objectif est de développer un modèle prédictif capable d’estimer la gravité d’un accident en fonction des conditions connues : caractéristiques de la route, du véhicule, du conducteur, des circonstances, etc.
 
----
 
 ## 2. Compréhension du problème et des données
 
@@ -23,7 +22,6 @@ Cette tâche est formulée comme un **problème de classification multi-classes*
 - Fournir des alertes automatiques dans des outils embarqués
 - Mieux comprendre les profils d'accidents graves
 
----
 
 ### 🗃 Source des données
 
@@ -35,7 +33,6 @@ Les jeux de données ont été :
 - Encodés
 - Et enrichis avec des variables cycliques (`TimeOfDay`, `DayOfWeek`, `Month`) via leurs composantes `sin` et `cos`.
 
----
 
 ###  Prétraitement spécifique
 
@@ -52,7 +49,6 @@ La classe 4 (blessé léger) représentant seulement **2.7 % des cas**, elle a
 
 La classification cible finale ne comporte donc que **3 classes significatives**.
 
----
 
 ### Variables disponibles
 
@@ -71,7 +67,6 @@ Le tout sur **2.3 millions de lignes** couvrant la France entière entre 2005 et
 
 L’objectif de cette analyse exploratoire est d’étudier la distribution des variables disponibles, de comprendre la structure des données, et d’identifier les relations potentielles entre les variables explicatives et la variable cible `grav`, représentant la gravité des accidents. Les données ayant déjà été nettoyées, la classe 4 (blessé léger) a été supprimée en raison de sa très faible représentativité (2.7 %), afin d’améliorer la stabilité et l’efficacité des futurs modèles de classification.
 
----
 
 ### Distribution de la variable cible
 
@@ -83,7 +78,6 @@ Après traitement, la variable `grav` contient trois classes :
 
 Cette distribution relativement équilibrée permet de travailler dans un contexte de classification multi-classes sans déséquilibre majeur. La suppression de la classe 4 a permis de réduire un déséquilibre initial important.
 
----
 
 ### Analyse univariée et bivariée
 
@@ -268,7 +262,6 @@ Le modèle final a été entraîné à la fois sur :
 
 Ce second modèle visait à tester si la réduction de complexité permettait de meilleures performances sur les cas graves.
 
----
 
 ## 6. Résultats
 
@@ -317,7 +310,6 @@ Le graphe des importances montre que les variables les plus déterminantes dans 
 9. `circ` : régime de circulation
 10. `choc` : type de choc
 
----
 
 ## 7. Interprétation métier
 
