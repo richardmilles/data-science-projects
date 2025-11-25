@@ -1,6 +1,6 @@
 #  Analyse et Modélisation de la Gravité des Accidents Routiers en France (2005–2021)
 
-## 1. Introduction
+## 1. Introduction 
 
 Les accidents de la route constituent un enjeu majeur de santé publique, de sécurité et d’économie. Chaque année, des milliers de personnes sont tuées ou gravement blessées sur les routes françaises. Comprendre les facteurs qui influencent la gravité d’un accident est crucial pour améliorer la prévention, orienter les politiques publiques, et optimiser la tarification ou la gestion des sinistres pour les assureurs.
 
