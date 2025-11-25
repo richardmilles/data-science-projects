@@ -7,7 +7,7 @@ Mon approche repose sur l’**expérimentation**, la **mise en pratique concrèt
 
 Je m’intéresse particulièrement à la **compréhension des données**, à la **modélisation prédictive**, et à la **création de solutions intelligentes** à partir de jeux de données variés.
 
----
+--- 
 
 ##  À propos de ce repository
 
