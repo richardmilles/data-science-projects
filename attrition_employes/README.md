@@ -1,6 +1,6 @@
 # Prédiction de l'Attrition des Employés
 
-## 1. Introduction
+## 1. Introduction 
 
 ### 1.1 Contexte du Projet
 L'attrition des employés est un problème majeur dans de nombreuses entreprises. Une rotation élevée du personnel peut entraîner des coûts significatifs en recrutement, formation et perte de compétences. Comprendre les raisons des départs volontaires et prédire quels employés sont susceptibles de quitter permettrait aux entreprises d'anticiper ces départs et de prendre des mesures correctives.
